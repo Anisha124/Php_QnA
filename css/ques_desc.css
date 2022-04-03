@@ -1,0 +1,106 @@
+body{
+    background-color: rgb(232, 235, 229);
+}
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+  }
+#title{
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 50px;
+    background-color: rgb(10, 148, 240);
+    color: white;
+    font-weight: 500;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+}
+.containerx{
+    align-items: center;
+    
+}
+.ques-container{
+    background-color: white;
+    display:block;
+    border-radius:inherit;
+    padding-bottom: 20px;
+}
+#desc{
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 22px;
+    font-weight:480;
+    color: rgb(49, 49, 49);
+}
+#time{
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: medium;
+    color: gray;
+}
+/* #answers{
+    background-color: rgb(10, 148, 240);
+    color:white;
+    text-align:center;
+
+} */
+
+#size{
+    padding-top: 10px;
+    padding-left: 10px;
+    color:rgb(5, 115, 189) ;
+    font-family:Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size:x-large;
+    font-weight: 650;
+}
+#comment{
+    padding-top: 10px;
+    padding-left: 10px;
+    font-size: 20px;
+}
+#time{
+    padding-left: 10px;
+    font-size: medium;
+    padding-bottom: 5px;
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 2000px) {
+  
+    .containerx{
+        padding-left: 250px;
+        padding-right: 250px;
+    }
+    .ques-container{
+        font-size:x-large;
+    
+    }
+    
+  }
+
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+  
+    .containerx{
+        align-items: left;
+        
+        
+    }
+    #heading{
+        text-align:center ;
+        margin-top: 50px;
+        background-color: rgb(10, 148, 240);
+        color: white;
+        
+    }
+    .ques-container{
+        font-size:large;
+
+    
+    }
+
+    
+    
+}
